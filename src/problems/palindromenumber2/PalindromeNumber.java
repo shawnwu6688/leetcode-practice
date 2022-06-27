@@ -31,9 +31,25 @@ public class PalindromeNumber {
         System.out.println("true");
         return true;
     }
+    public static boolean isPalindromeComment(int x) {
+        //将数取反，判断相等
+         if(x<0)
+            return false;
+        int rem=0,y=0;
+        int quo=x;
+        while(quo!=0){
+            rem=quo%10;
+            y=y*10+rem;
+            quo=quo/10;
+        }
+        System.out.println(y==x);
+        return y==x;
+
+    }
 
     public static void main(String[] args) {
-        isPalindrome(-121);
+        isPalindromeComment(21);
+        //isPalindrome(-121);
     }
 
 }
