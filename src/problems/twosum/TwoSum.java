@@ -1,4 +1,4 @@
-package problems.twosum1;
+package problems.twosum;
 
 /**
  * @ProjectName: leetcode-practice

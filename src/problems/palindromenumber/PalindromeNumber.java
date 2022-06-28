@@ -1,4 +1,4 @@
-package problems.palindromenumber2;
+package problems.palindromenumber;
 
 /**
  * @ProjectName: leetcode-practice
