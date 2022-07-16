@@ -1,4 +1,4 @@
-package ninetyonedaylearnalgorithm;
+package ninetyonedaylearnalgorithm.addtoarrayformofinteger;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
