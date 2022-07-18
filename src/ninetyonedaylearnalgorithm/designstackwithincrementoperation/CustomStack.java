@@ -53,7 +53,7 @@ public class CustomStack {
             if (i == index -1){
                 sb.append(stack[i]);
             }else {
-                sb.append(stack[i]+",");
+                sb.append(stack[i]).append(",");
             }
 
 
