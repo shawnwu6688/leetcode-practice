@@ -13,7 +13,7 @@ package problems.mergetwosortedlists;
  **/
 public class ListNode {
     int val;
-    ListNode next;
+    public ListNode next;
 
     ListNode() {
     }
