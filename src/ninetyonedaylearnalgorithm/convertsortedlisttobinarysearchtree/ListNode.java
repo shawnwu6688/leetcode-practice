@@ -1,24 +1,24 @@
-package problems.mergetwosortedlists;
+package ninetyonedaylearnalgorithm.convertsortedlisttobinarysearchtree;
 
 /**
  * @ProjectName: leetcode-practice
- * @Package: problems.mergetwosortedlists
+ * @Package: ninetyonedaylearnalgorithm.convertsortedlisttobinarysearchtree
  * @ClassName: ListNode
  * @Description: []
  * @Author: [Shawn]
- * @Date: 2022/7/2 22:50
+ * @Date: 2022/7/23 23:13
  * @Version: V1.0
  * @Copyright: 2022  Inc. All rights reserved.
  * @TODO: Nothing
  **/
 public class ListNode {
-    public int val;
-    public ListNode next;
+    int val;
+    ListNode next;
 
-    public ListNode() {
+    ListNode() {
     }
 
-    public ListNode(int val) {
+    ListNode(int val) {
         this.val = val;
     }
 
@@ -26,5 +26,4 @@ public class ListNode {
         this.val = val;
         this.next = next;
     }
-
 }
