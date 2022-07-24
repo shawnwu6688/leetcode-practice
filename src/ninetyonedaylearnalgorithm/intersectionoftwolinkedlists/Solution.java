@@ -19,35 +19,7 @@ package ninetyonedaylearnalgorithm.intersectionoftwolinkedlists;
  **/
 public class Solution {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
-        //if (headA == null || headB == null) return null;
-        //ListNode countHeadA = headA;
-        //ListNode countHeadB = headB;
-        //int count = 0;
-        ////常规思路处理:
-        ////计算 a+b
-        //while (countHeadA.next != null){
-        //    count++;
-        //    countHeadA = countHeadA.next;
-        //}
-        //while (countHeadB.next != null){
-        //    count++;
-        //    countHeadB = countHeadB.next;
-        //}
-        //
-        //
-        //ListNode pA = headA;
-        //ListNode pB = headB;
-        //while (count != 0){
-        //    //同步到B head位置
-        //    pA = pA == null ? headB: pA.next;
-        //    pB = pB == null ? headA: pB.next;
-        //    count--;
-        //}
-        ////如果有相交点会在pA = pB处相交,如果没有,则会在链尾相交
-        //while (pA != pB){
-        //    pA = pA.next;
-        //    pB = pB.next;
-        //}
+
         //标准思路处理
         if (headA == null || headB == null) return null;
         ListNode pA = headA, pB = headB;
